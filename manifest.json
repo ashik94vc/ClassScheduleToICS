@@ -1,12 +1,12 @@
 {
   "manifest_version":   2,
-  "name":               "UW Class Schedule Exporter",
-  "version":            "1.1",
-  "description":        "Export your University of Waterloo class schedule to your calendar",
+  "name":               "SBU Class Schedule Exporter",
+  "version":            "1.2",
+  "description":        "Export SBU class schedule as ICS which can be imported into Google Calendar",
   "icons": { "128": "icon.png" },
   "content_scripts":    [
     {
-      "matches":          ["https://quest.pecs.uwaterloo.ca/*"],
+      "matches":          ["https://psns.cc.stonybrook.edu/*"],
       "all_frames":       true,
       "js":               ["jquery-1.9.1.min.js", "content_script.js"]
     }
